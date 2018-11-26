@@ -47,3 +47,9 @@ for(var article in clothes){
 // по артиклю выводит имеющийся товар
 console.log(clothes[prompt('Enter article', '')]);
 
+//или так:
+var myArticle = prompt('Enter article', '');
+for(var article in clothes){
+  if(myArticle === article)
+    console.log('Info about article #' + article + ':', clothes[article]);
+}
