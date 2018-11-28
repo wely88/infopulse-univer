@@ -1,8 +1,8 @@
 //password with range a-z
 var password = '',
-	passLength = 10,
-	m = 97,
-	n = 122;
+    passLength = 10,
+    m = 97,
+    n = 122;
 	
 
 for(var i = 0; i < passLength; i++){
@@ -17,9 +17,9 @@ console.log('----------')
 //password with ranges a-z, A-Z, 0-9
 
 var password = '',
-	passLength = 10,
-	m = 48,
-	n = 122,
+    passLength = 10,
+    m = 48,
+    n = 122,
     i = 0;
 	
 
