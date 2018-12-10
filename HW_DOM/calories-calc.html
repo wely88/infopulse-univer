@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Infopulse Univer</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/calories-calc.css">
+		<link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "container__firstDish">
+				<form class = "firstDish">
+					<span class = "firstDish__itemName">Первое блюдо</span>
+					<select class = "firstDish__itemValues" id = "firstDish__itemValues">	
+						<option value="Бограч">Бограч</option>
+						<option value="Бульон куриный">Бульон куриный</option>
+						<option value="Окрошка">Окрошка</option>
+						<option value="Суп с клецками">Суп с клецками</option>
+						<option value="Грибная юшка">Грибная юшка</option>
+					</select>	
+					<span class = "firstDish__itemWeight">Вес</span>		
+					<input class = "firstDish__itemWeightData" id = "firstDish__itemWeightData">
+				</form>
+			</div>
+			<div class = "container__secondDish">
+				<form class = "secondDish">
+					<span class = "secondDish__itemName">Второе блюдо</span>
+					<select class = "secondDish__itemValues" id = "secondDish__itemValues">	
+						<option value="Гуляш по-украински">Гуляш по-украински</option>
+						<option value="Куриная отбивная с гречкой">Куриная отбивная с гречкой</option>
+						<option value="Котлета с жареной картошкой">Котлета с жареной картошкой</option>
+						<option value="Нежное пюре с сосисками">Нежное пюре с сосисками</option>
+					</select>		
+					<span class = "secondDish__itemWeight">Вес</span>		
+					<input class = "secondDish__itemWeightData" id = "secondDish__itemWeightData">
+				</form>
+			</div>
+			<div class = "container__drink">
+				<form class = "drink">
+					<span class = "drink__itemName">Напиток</span>
+					<select class = "drink__itemValues" id = "drink__itemValues">	
+						<option value="Узвар">Узвар</option>
+						<option value="Кофе">Кофе</option>
+						<option value="Чай">Чай</option>
+						<option value="Coca-cola">Coca-cola</option>
+					</select>
+					<span class = "drink__itemWeight">Вес</span>		
+					<input class = "drink__itemWeightData" id = "drink__itemWeightData">
+				</form>
+			</div>
+			<div class = "container__calculate">
+				<div class = "calculate">
+				<button class = "calculate__btn" id="calculate__btn">Посчитать</button>
+				</div>
+			</div>
+			<div class = "container__result">
+				<div class = "result">
+				<span class = "result__text">Общая сумма каллорий обеда: </span></span><input class = "result__string" id = "result__string">
+				</div>
+			</div>
+		</div>
+	<script src="script/calories-calc.js"></script>		
+	</body>
+</html>
+
+
+	
+
+
+<!-- 
+---here is a BEM model for this task---
+container
+ container__firstDish ЭМ
+	firstDish
+		firstDish__itemName
+		firstDish__itemValues
+		firstDish__itemWeight
+		firstDish__itemWeightData
+ container__secondDish ЭМ
+	secondDish
+		secondDish__itemName
+		secondDish__itemValues
+		secondDish__itemWeight
+		secondDish__itemWeightData
+ container__drink ЭМ
+	drink
+		drink__itemName
+		drink__itemValues
+		drink__itemWeight
+		drink__itemWeightData
+ container__calculate
+	calculate
+		calculate__btn
+ container__result
+	result 
+		result__string
+	
+ -->
