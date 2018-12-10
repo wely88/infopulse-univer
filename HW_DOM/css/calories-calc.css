@@ -1,0 +1,78 @@
+html{
+	font-size: 16px;
+}
+
+body{
+	font-family: 'Arimo', sans-serif;
+	margin: 0;
+}
+
+.container{
+	margin: 20px;
+}
+
+.container__result{
+	margin-top: 10px;
+}
+
+.firstDish, .secondDish, .drink, .calculate, .result{
+	padding: 10px 0 0 20px;
+}
+
+.firstDish__itemName, .secondDish__itemName, .drink__itemName{
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.firstDish__itemValues, .secondDish__itemValues, .drink__itemValues{
+  width: 210px;
+}
+
+.firstDish__itemWeightData, .secondDish__itemWeightData, .drink__itemWeightData, .result__string{
+  width: 50px;
+  padding: 5px; 
+  font-size: 14px; 
+  background-color: #F2F2F2; 
+  border-width: 1px;
+  border-color: #A4A4A4; 
+  border-style: double; 
+}
+
+.firstDish__itemWeight, .secondDish__itemWeight, .drink__itemWeight{
+ margin-left: 15px;
+}
+
+.calculate__btn {
+	background-color: #89c403;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.calculate__btn:hover {
+	background-color:#77a809;
+}
+.calculate__btn:active {
+	position:relative;
+	top:1px;
+}
+
+.firstDish__itemValues, .secondDish__itemValues, .drink__itemValues {
+  padding: 5px; 
+  font-size: 14px; 
+  background-color: #F2F2F2; 
+ }
+ 
+ .result__text{
+	 margin-right: 23px;
+ }
+	
