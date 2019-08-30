@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container-header{
+	background-color: red;
+	text-align: center;
+	padding: 20px 30px 30px;
+}
+
+.header-text{
+	margin: 0 0 10px;
+	font-weight: bold;
+	color: white;	
+	text-transform: capitalize;
+}
+
+.header-form{
+	border: 0;
+	width: 70%;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.header-form:focus{
+	outline: none;
+}
+
+.header-button{
+	border: 0;
+	width: 27%;
+	margin-left: -4px;
+	padding: 10px;
+	font-size: 16px;
+	transition: .3s;
+}
+
+.header-button:hover{
+	background-color: #c8c8c8;
+}
+
+.header-button:focus{
+	outline: none;
+}
+
+.items-container{
+	margin: 0;
+	padding: 0;
+}
+
+.item{
+	position: relative;
+	list-style: none;
+	padding: 10px 10px 10px 30px;
+	font-size: 18px;
+	background-color: #f9f9f9;
+	transition: .3s;
+}
+
+.item:hover{
+	background-color: #c8c8c8 !important;
+	cursor: pointer;
+}
+
+.item:hover .item-btn{
+	color: white;
+}
+
+.item-done{
+	background-color: #808080 !important;
+    color: white;
+    text-decoration: line-through;
+}
+
+.item-done:hover{
+	background-color: #808080 !important;
+}
+
+.item:nth-child(odd){
+	background-color: #eee;
+}
+
+.item-mark:before{
+	display: block;
+	content: '\2713';
+	color: white;
+	left: 10px;
+    top: 7px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.item-btn{
+	height: 41px;
+    width: 40px;
+    position: absolute;
+	font-size: 16px;
+    border: 0;
+    background: none;
+	right: 0;
+	top: 0;
+	transition: .3s;
+}
+
+.item-btn:hover{
+	 background: red;
+	 cursor: pointer;
+}
+
+.item-btn:focus{
+	outline: none;
+}
