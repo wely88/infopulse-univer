@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>To Do List</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/styles.css" rel="stylesheet">		
+	</head>
+	<body>
+		<div class="container" id="list">
+			<div class="container-header">
+				<h1 class="header-text">My to do list</h1>
+				<form>
+					<input class="header-form" placeholder="Title..." type="text" size="40">
+					<button class="header-button">Add</button>
+				</form>
+			</div>
+			<ul class="items-container">
+				<li class="item"><span class="item-text">Hit the gym</span><button class="item-btn">&times;</button></li>
+				<li class="item"><span class="item-text">Pay bills</span><button class="item-btn">&times;</button></li>
+				<li class="item"><span class="item-text">Meet George</span><button class="item-btn">&times;</button></li>
+				<li class="item"><span class="item-text">Buy eggs</span><button class="item-btn">&times;</button></li>	
+				<li class="item"><span class="item-text">Read a book</span><button class="item-btn">&times;</button></li>
+				<li class="item"><span class="item-text">Organize office</span><button class="item-btn">&times;</button></li>	
+			</ul>
+		</div>
+		<script src="scripts/toDoList.js"></script>
+		<script>
+			let list = new List('#list')
+		</script>
+	</body>
+</html>
